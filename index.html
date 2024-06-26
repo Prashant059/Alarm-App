@@ -3,8 +3,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport"
-		content="width=device-width, 
+	<meta name="viewport" content="width=device-width, 
 				initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
 	<title>Advanced Alarm Clock</title>
@@ -23,24 +22,23 @@
 				<label for="alarmDate">
 					Select Date:
 				</label>
-				<input type="date"
-					id="alarmDate"
-					class="alarm-input"
-					min="">
+				<input type="date" id="alarmDate" class="alarm-input" min="">
 			</div>
 			<div class="input-field">
 				<label for="alarmTime">
 					Select Time:
 				</label>
-				<input type="time" id="alarmTime"
-					class="alarm-input">
+				<input type="time" id="alarmTime" class="alarm-input">
 			</div>
 			<button id="setAlarm">
 				Set Alarm
 			</button>
 		</div>
 		<div class="alarms" id="alarms">
-        <audio id="alarm-sound" src="./alarm.mp3" preload="auto"></audio>
+			<audio id="alarm-sound" src="./alarm.mp3" preload="auto"></audio>
+			<button id="stopAlarm" style="display: none;">
+				Stop Alarm
+			</button>
 		</div>
 	</div>
 	<script src="script.js"></script>
